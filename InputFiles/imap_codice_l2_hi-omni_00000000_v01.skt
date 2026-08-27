@@ -1,0 +1,2938 @@
+! Skeleton table for the "imap_codice_l2_hi-omni_00000000_v01.cdf" CDF.
+! Generated: Thursday, 27-Aug-2026 09:15:45
+! CDF created/modified by CDF V3.9.2
+! Skeleton table created by CDF V3.8.1_0
+
+#header
+
+                       CDF NAME: imap_codice_l2_hi-omni_00000000_v01.cdf
+                  DATA ENCODING: IBMPC
+                       MAJORITY: ROW
+                         FORMAT: SINGLE
+
+! Variables  G.Attributes  V.Attributes  Records  Dims  Sizes
+! ---------  ------------  ------------  -------  ----  -----
+    0/58          25            25         0/z      0
+! CDF_COMPRESSION: None
+! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+! CDF_CHECKSUM: None
+! (Valid checksum: None, MD5)
+! CDF_LEAPSECONDLASTUPDATED: 20170101
+
+
+#GLOBALattributes
+
+! Attribute         Entry       Data
+! Name              Number      Type       Value
+! ---------         ------      ----       -----
+
+  "Acknowledgement"     1:    CDF_CHAR     { "Users should acknowledge " -
+                                             "the sources of data used " -
+                                             "in all publications, " -
+                                             "presentations, and reports" -
+                                             " using an appropriate DOI." -
+                                             " Appropriate " -
+                                             "acknowledgement to " -
+                                             "institutions, personnel, " -
+                                             "and funding agencies " -
+                                             "should be given, including" -
+                                             " acknowledging the IMAP " -
+                                             "Mission Principal " -
+                                             "Investigator, Prof. David " -
+                                             "J. McComas of Princeton " -
+                                             "University (Contract " -
+                                             "#80GSFC19C0027). IMAP " -
+                                             "Rules-of-the-Road for data" -
+                                             " usage can be found in the" -
+                                             " IMAP CMAD. " } .
+
+  "Data_type"           1:    CDF_CHAR     { "L2_hi-omni>Level-2 Hi " -
+                                             "Omnidirectional Species " -
+                                             "Intensities Data" } .
+
+  "Data_version"        1:    CDF_CHAR     { " " } .
+
+  "Descriptor"          1:    CDF_CHAR     { "CoDICE>Compact Dual Ion " -
+                                             "Composition Experiment" } .
+
+  "Discipline"          1:    CDF_CHAR     { "Solar Physics>Heliospheric" -
+                                             " Physics" } .
+
+  "File_naming_convention"
+                        1:    CDF_CHAR     { "source_descriptor_datatype" -
+                                             "_yyyyMMdd_vMMM.mmmm" } .
+
+  "HTTP_LINK"           1:    CDF_CHAR     { "https://imap.princeton.edu/" }
+                        2:    CDF_CHAR     { "https://link.springer.com/" -
+                                             "collections/djacjcecei" }
+                        3:    CDF_CHAR     { "https://spdf.gsfc.nasa.gov" -
+                                             "/pub/data/imap/documents/c" -
+                                             "mad/" } .
+
+  "Instrument_type"     1:    CDF_CHAR     { "Particles (space)" } .
+
+  "LINK_TITLE"          1:    CDF_CHAR     { "IMAP The Interstellar " -
+                                             "Mapping and Acceleration " -
+                                             "Probe" }
+                        2:    CDF_CHAR     { "IMAP Mission and Science " -
+                                             "Instruments Special Paper " -
+                                             "Collection" }
+                        3:    CDF_CHAR     { "IMAP Calibration and " -
+                                             "Measurement Algorithms " -
+                                             "Document (CMAD)" } .
+
+  "Logical_file_id"     1:    CDF_CHAR     { " " } .
+
+  "Logical_source"      1:    CDF_CHAR     { "imap_codice_l2_hi-omni" } .
+
+  "Logical_source_description"
+                        1:    CDF_CHAR     { "IMAP Mission CoDICE Hi " -
+                                             "Level-2 Omnidirectional " -
+                                             "Species Intensity Data." } .
+
+  "Mission_group"       1:    CDF_CHAR     { "IMAP" } .
+
+  "PI_affiliation"      1:    CDF_CHAR     { "Princeton University" } .
+
+  "PI_name"             1:    CDF_CHAR     { "Prof. David J. McComas" } .
+
+  "Project"             1:    CDF_CHAR     { "STP>Solar Terrestrial Probes" } .
+
+  "Rules_of_use"        1:    CDF_CHAR     { "All IMAP data products are" -
+                                             " publicly released and " -
+                                             "citable for use in " -
+                                             "publications. Please " -
+                                             "consult the IMAP team " -
+                                             "publications and personnel" -
+                                             " for further details on " -
+                                             "production, processing, " -
+                                             "and usage of these data. " } .
+
+  "Source_name"         1:    CDF_CHAR     { "IMAP>Interstellar Mapping " -
+                                             "and Acceleration Probe" } .
+
+  "TEXT"                1:    CDF_CHAR     { "The Compact Dual Ion " -
+                                             "Composition Experiment " -
+                                             "(CoDICE) will measure the " -
+                                             "distributions and " -
+                                             "composition of " -
+                                             "interstellar pickup ions " -
+                                             "(PUIs), particles that " -
+                                             "make it through the " -
+                                             "heliosheath into the " -
+                                             "heliosphere. CoDICE also " -
+                                             "collects and characterizes" -
+                                             " solar wind ions including" -
+                                             " the mass and composition " -
+                                             "of highly energized " -
+                                             "particles (called " -
+                                             "suprathermal) from the " -
+                                             "Sun. CoDICE combines an " -
+                                             "electrostatic analyzer " -
+                                             "(ESA) with a " -
+                                             "Time-Of-Flight versus " -
+                                             "Energy (TOF / E) subsystem" -
+                                             " to simultaneously measure" -
+                                             " the velocity, arrival " -
+                                             "direction, ionic charge " -
+                                             "state, and mass of " -
+                                             "specific species of ions " -
+                                             "in the LISM. CoDICE also " -
+                                             "has a path for higher " -
+                                             "energy particles to skip " -
+                                             "the ESA but still get " -
+                                             "measured by the common TOF" -
+                                             " / E system. These " -
+                                             "measurements are critical " -
+                                             "in determining the Local " -
+                                             "Interstellar Medium (LISM)" -
+                                             " composition and flow " -
+                                             "properties, the origin of " -
+                                             "the enigmatic suprathermal" -
+                                             " tails on the solar wind " -
+                                             "distributions and advance " -
+                                             "understanding of the " -
+                                             "acceleration of particles " -
+                                             "in the heliosphere. " } .
+
+  "Start_date"          1:    CDF_CHAR     { " " } .
+
+  "Parents"             1:    CDF_CHAR     { " " } .
+
+  "ground_software_version"
+                        1:    CDF_CHAR     { " " } .
+
+  "Generation_date"     1:    CDF_CHAR     { " " } .
+
+  "Generated_by"        1:    CDF_CHAR     { " " } .
+
+  "LINK_TEXT"           1:    CDF_CHAR     { " " }
+                        2:    CDF_CHAR     { " " }
+                        3:    CDF_CHAR     { " " } .
+
+
+#VARIABLEattributes
+
+  "CATDESC"
+  "DICT_KEY"
+  "DISPLAY_TYPE"
+  "FIELDNAM"
+  "FILLVAL"
+  "FORMAT"
+  "LABLAXIS"
+  "SCALETYP"
+  "UNITS"
+  "VALIDMAX"
+  "VALIDMIN"
+  "VAR_TYPE"
+  "DEPEND_1"
+  "DELTA_MINUS_VAR"
+  "DELTA_PLUS_VAR"
+  "DEPEND_0"
+  "LABL_PTR_1"
+  "COORDINATE_SYSTEM"
+  "SI_CONVERSION"
+  "VAR_NOTES"
+  "MONOTON"
+  "REFERENCE_POSITION"
+  "RESOLUTION"
+  "TIME_BASE"
+  "TIME_SCALE"
+
+
+#variables
+
+! No rVariables.
+
+
+#zVariables
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_h_minus"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Lower energy half-width for H" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "H Energy Delta Minus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_h" } .
+
+  ! NRV values follow...
+
+    [1] = 0.003784
+    [2] = 0.005352
+    [3] = 0.007568
+    [4] = 0.010703
+    [5] = 0.015137
+    [6] = 0.021406
+    [7] = 0.030273
+    [8] = 0.042813
+    [9] = 0.060546
+    [10] = 0.085625
+    [11] = 0.121093
+    [12] = 0.171251
+    [13] = 0.242185
+    [14] = 0.342501
+    [15] = 0.484370
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_h_plus"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Upper energy half-width for H" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "H Energy Delta Plus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_h" } .
+
+  ! NRV values follow...
+
+    [1] = 0.004500
+    [2] = 0.006364
+    [3] = 0.009000
+    [4] = 0.012728
+    [5] = 0.018001
+    [6] = 0.025457
+    [7] = 0.036001
+    [8] = 0.050913
+    [9] = 0.072002
+    [10] = 0.101826
+    [11] = 0.144004
+    [12] = 0.203653
+    [13] = 0.288008
+    [14] = 0.407305
+    [15] = 0.576017
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "h"             CDF_DOUBLE     1       1     15       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Differential intensity for H at " -
+                                 "root-2-spaced energy-per-nucleon " -
+                                 "channels" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:NumberFlux,Qualifier:Differ" -
+                                 "ential" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Differential Intensity - H" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 16777216.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_h" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "unc_h" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "unc_h" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_h_label" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "unc_h"         CDF_DOUBLE     1       1     15       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Uncertainty in differential intensity " -
+                                 "for H at root-2-spaced " -
+                                 "energy-per-nucleon channels" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Uncertainty - H" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 4096.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_h" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_h_label" }
+    "COORDINATE_SYSTEM"
+                  CDF_CHAR     { "instrument frame" }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_he3_minus"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Lower energy half-width for He3" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "He3 Energy Delta Minus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_he3" } .
+
+  ! NRV values follow...
+
+    [1] = 0.003784
+    [2] = 0.005352
+    [3] = 0.007568
+    [4] = 0.010703
+    [5] = 0.015137
+    [6] = 0.021406
+    [7] = 0.030273
+    [8] = 0.042813
+    [9] = 0.060546
+    [10] = 0.085625
+    [11] = 0.121093
+    [12] = 0.171251
+    [13] = 0.242185
+    [14] = 0.342501
+    [15] = 0.484370
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_he3_plus"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Upper energy half-width for He3" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "He3 Energy Delta Plus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_he3" } .
+
+  ! NRV values follow...
+
+    [1] = 0.004500
+    [2] = 0.006364
+    [3] = 0.009000
+    [4] = 0.012728
+    [5] = 0.018001
+    [6] = 0.025457
+    [7] = 0.036001
+    [8] = 0.050913
+    [9] = 0.072002
+    [10] = 0.101826
+    [11] = 0.144004
+    [12] = 0.203653
+    [13] = 0.288008
+    [14] = 0.407305
+    [15] = 0.576017
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "he3"           CDF_DOUBLE     1       1     15       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Differential intensity for He3 at " -
+                                 "root-2-spaced energy-per-nucleon " -
+                                 "channels" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:NumberFlux,Qualifier:Differ" -
+                                 "ential" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Differential Intensity - He3" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 16777216.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_he3" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "unc_he3" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "unc_he3" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_he3_label" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "unc_he3"       CDF_DOUBLE     1       1     15       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Uncertainty in differential intensity " -
+                                 "for He3 at root-2-spaced " -
+                                 "energy-per-nucleon channels" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Uncertainty - He3" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 4096.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_he3" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_he3_label" }
+    "COORDINATE_SYSTEM"
+                  CDF_CHAR     { "instrument frame" }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_he4_minus"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Lower energy half-width for He4" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "He4 Energy Delta Minus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_he4" } .
+
+  ! NRV values follow...
+
+    [1] = 0.003784
+    [2] = 0.005352
+    [3] = 0.007568
+    [4] = 0.010703
+    [5] = 0.015137
+    [6] = 0.021406
+    [7] = 0.030273
+    [8] = 0.042813
+    [9] = 0.060546
+    [10] = 0.085625
+    [11] = 0.121093
+    [12] = 0.171251
+    [13] = 0.242185
+    [14] = 0.342501
+    [15] = 0.484370
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_he4_plus"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Upper energy half-width for He4" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "He4 Energy Delta Plus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_he4" } .
+
+  ! NRV values follow...
+
+    [1] = 0.004500
+    [2] = 0.006364
+    [3] = 0.009000
+    [4] = 0.012728
+    [5] = 0.018001
+    [6] = 0.025457
+    [7] = 0.036001
+    [8] = 0.050913
+    [9] = 0.072002
+    [10] = 0.101826
+    [11] = 0.144004
+    [12] = 0.203653
+    [13] = 0.288008
+    [14] = 0.407305
+    [15] = 0.576017
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "he4"           CDF_DOUBLE     1       1     15       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Differential intensity for He4 at " -
+                                 "root-2-spaced energy-per-nucleon " -
+                                 "channels" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:NumberFlux,Qualifier:Differ" -
+                                 "ential" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Differential Intensity - He4" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 16777216.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_he4" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "unc_he4" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "unc_he4" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_he4_label" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "unc_he4"       CDF_DOUBLE     1       1     15       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Uncertainty in differential intensity " -
+                                 "for He4 at root-2-spaced " -
+                                 "energy-per-nucleon channels" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Uncertainty - He4" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 4096.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_he4" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_he4_label" }
+    "COORDINATE_SYSTEM"
+                  CDF_CHAR     { "instrument frame" }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_c_minus"
+                  CDF_DOUBLE     1       1     18       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Lower energy half-width for C" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "C Energy Delta Minus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_c" } .
+
+  ! NRV values follow...
+
+    [1] = 0.003784
+    [2] = 0.005352
+    [3] = 0.007568
+    [4] = 0.010703
+    [5] = 0.015137
+    [6] = 0.021406
+    [7] = 0.030273
+    [8] = 0.042813
+    [9] = 0.060546
+    [10] = 0.085625
+    [11] = 0.121093
+    [12] = 0.171251
+    [13] = 0.242185
+    [14] = 0.342501
+    [15] = 0.484370
+    [16] = 0.685003
+    [17] = 0.968740
+    [18] = 1.370006
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_c_plus"
+                  CDF_DOUBLE     1       1     18       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Upper energy half-width for C" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "C Energy Delta Plus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_c" } .
+
+  ! NRV values follow...
+
+    [1] = 0.004500
+    [2] = 0.006364
+    [3] = 0.009000
+    [4] = 0.012728
+    [5] = 0.018001
+    [6] = 0.025457
+    [7] = 0.036001
+    [8] = 0.050913
+    [9] = 0.072002
+    [10] = 0.101826
+    [11] = 0.144004
+    [12] = 0.203653
+    [13] = 0.288008
+    [14] = 0.407305
+    [15] = 0.576017
+    [16] = 0.814610
+    [17] = 1.152033
+    [18] = 1.629221
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "c"             CDF_DOUBLE     1       1     18       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Differential intensity for C at " -
+                                 "root-2-spaced energy-per-nucleon " -
+                                 "channels" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:NumberFlux,Qualifier:Differ" -
+                                 "ential" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Differential Intensity - C" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 16777216.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_c" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "unc_c" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "unc_c" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_c_label" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "unc_c"         CDF_DOUBLE     1       1     18       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Uncertainty in differential intensity " -
+                                 "for C at root-2-spaced " -
+                                 "energy-per-nucleon channels" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Uncertainty - C" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 4096.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_c" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_c_label" }
+    "COORDINATE_SYSTEM"
+                  CDF_CHAR     { "instrument frame" }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_o_minus"
+                  CDF_DOUBLE     1       1     18       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Lower energy half-width for O" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "O Energy Delta Minus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_o" } .
+
+  ! NRV values follow...
+
+    [1] = 0.003784
+    [2] = 0.005352
+    [3] = 0.007568
+    [4] = 0.010703
+    [5] = 0.015137
+    [6] = 0.021406
+    [7] = 0.030273
+    [8] = 0.042813
+    [9] = 0.060546
+    [10] = 0.085625
+    [11] = 0.121093
+    [12] = 0.171251
+    [13] = 0.242185
+    [14] = 0.342501
+    [15] = 0.484370
+    [16] = 0.685003
+    [17] = 0.968740
+    [18] = 1.370006
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_o_plus"
+                  CDF_DOUBLE     1       1     18       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Upper energy half-width for O" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "O Energy Delta Plus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_o" } .
+
+  ! NRV values follow...
+
+    [1] = 0.004500
+    [2] = 0.006364
+    [3] = 0.009000
+    [4] = 0.012728
+    [5] = 0.018001
+    [6] = 0.025457
+    [7] = 0.036001
+    [8] = 0.050913
+    [9] = 0.072002
+    [10] = 0.101826
+    [11] = 0.144004
+    [12] = 0.203653
+    [13] = 0.288008
+    [14] = 0.407305
+    [15] = 0.576017
+    [16] = 0.814610
+    [17] = 1.152033
+    [18] = 1.629221
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "o"             CDF_DOUBLE     1       1     18       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Differential intensity for O at " -
+                                 "root-2-spaced energy-per-nucleon " -
+                                 "channels" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:NumberFlux,Qualifier:Differ" -
+                                 "ential" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Differential Intensity - O" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 16777216.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_o" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "unc_o" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "unc_o" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_o_label" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "unc_o"         CDF_DOUBLE     1       1     18       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Uncertainty in differential intensity " -
+                                 "for O at root-2-spaced " -
+                                 "energy-per-nucleon channels" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Uncertainty - O" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 4096.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_o" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_o_label" }
+    "COORDINATE_SYSTEM"
+                  CDF_CHAR     { "instrument frame" }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_ne_mg_si_minus"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Lower energy half-width for Ne+Mg+Si" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Ne+Mg+Si Energy Delta Minus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_ne_mg_si" } .
+
+  ! NRV values follow...
+
+    [1] = 0.003784
+    [2] = 0.005352
+    [3] = 0.007568
+    [4] = 0.010703
+    [5] = 0.015137
+    [6] = 0.021406
+    [7] = 0.030273
+    [8] = 0.042813
+    [9] = 0.060546
+    [10] = 0.085625
+    [11] = 0.121093
+    [12] = 0.171251
+    [13] = 0.242185
+    [14] = 0.342501
+    [15] = 0.484370
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_ne_mg_si_plus"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Upper energy half-width for Ne+Mg+Si" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Ne+Mg+Si Energy Delta Plus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_ne_mg_si" } .
+
+  ! NRV values follow...
+
+    [1] = 0.004500
+    [2] = 0.006364
+    [3] = 0.009000
+    [4] = 0.012728
+    [5] = 0.018001
+    [6] = 0.025457
+    [7] = 0.036001
+    [8] = 0.050913
+    [9] = 0.072002
+    [10] = 0.101826
+    [11] = 0.144004
+    [12] = 0.203653
+    [13] = 0.288008
+    [14] = 0.407305
+    [15] = 0.576017
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "ne_mg_si"      CDF_DOUBLE     1       1     15       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Differential intensity for Ne+Mg+Si at" -
+                                 " root-2-spaced energy-per-nucleon " -
+                                 "channels" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:NumberFlux,Qualifier:Differ" -
+                                 "ential" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Differential Intensity - Ne+Mg+Si" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 16777216.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_ne_mg_si" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "unc_ne_mg_si" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "unc_ne_mg_si" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_ne_mg_si_label" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "unc_ne_mg_si"
+                  CDF_DOUBLE     1       1     15       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Uncertainty in differential intensity " -
+                                 "for Ne+Mg+Si at root-2-spaced " -
+                                 "energy-per-nucleon channels" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Uncertainty - Ne+Mg+Si" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 4096.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_ne_mg_si" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_ne_mg_si_label" }
+    "COORDINATE_SYSTEM"
+                  CDF_CHAR     { "instrument frame" }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_fe_minus"
+                  CDF_DOUBLE     1       1     18       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Lower energy half-width for Fe" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Fe Energy Delta Minus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_fe" } .
+
+  ! NRV values follow...
+
+    [1] = 0.003784
+    [2] = 0.005352
+    [3] = 0.007568
+    [4] = 0.010703
+    [5] = 0.015137
+    [6] = 0.021406
+    [7] = 0.030273
+    [8] = 0.042813
+    [9] = 0.060546
+    [10] = 0.085625
+    [11] = 0.121093
+    [12] = 0.171251
+    [13] = 0.242185
+    [14] = 0.342501
+    [15] = 0.484370
+    [16] = 0.685003
+    [17] = 0.968740
+    [18] = 1.370006
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_fe_plus"
+                  CDF_DOUBLE     1       1     18       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Upper energy half-width for Fe" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Fe Energy Delta Plus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_fe" } .
+
+  ! NRV values follow...
+
+    [1] = 0.004500
+    [2] = 0.006364
+    [3] = 0.009000
+    [4] = 0.012728
+    [5] = 0.018001
+    [6] = 0.025457
+    [7] = 0.036001
+    [8] = 0.050913
+    [9] = 0.072002
+    [10] = 0.101826
+    [11] = 0.144004
+    [12] = 0.203653
+    [13] = 0.288008
+    [14] = 0.407305
+    [15] = 0.576017
+    [16] = 0.814610
+    [17] = 1.152033
+    [18] = 1.629221
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fe"            CDF_DOUBLE     1       1     18       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Differential intensity for Fe at " -
+                                 "root-2-spaced energy-per-nucleon " -
+                                 "channels" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:NumberFlux,Qualifier:Differ" -
+                                 "ential" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Differential Intensity - Fe" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 16777216.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_fe" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "unc_fe" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "unc_fe" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_fe_label" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "unc_fe"        CDF_DOUBLE     1       1     18       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Uncertainty in differential intensity " -
+                                 "for Fe at root-2-spaced " -
+                                 "energy-per-nucleon channels" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Uncertainty - Fe" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 4096.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_fe" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_fe_label" }
+    "COORDINATE_SYSTEM"
+                  CDF_CHAR     { "instrument frame" }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_uh_minus"
+                  CDF_DOUBLE     1       1     5        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Lower energy half-width for UH" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "UH Energy Delta Minus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_uh" } .
+
+  ! NRV values follow...
+
+    [1] = 0.003784
+    [2] = 0.005352
+    [3] = 0.007568
+    [4] = 0.010703
+    [5] = 0.015137
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_uh_plus"
+                  CDF_DOUBLE     1       1     5        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Upper energy half-width for UH" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "UH Energy Delta Plus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_uh" } .
+
+  ! NRV values follow...
+
+    [1] = 0.004500
+    [2] = 0.006364
+    [3] = 0.009000
+    [4] = 0.012728
+    [5] = 0.018001
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "uh"            CDF_DOUBLE     1       1     5        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Differential intensity for Ultra-Heavy" -
+                                 " ions at root-2-spaced " -
+                                 "energy-per-nucleon channels" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:NumberFlux,Qualifier:Differ" -
+                                 "ential" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Differential Intensity - Ultra-Heavy" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 16777216.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_uh" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "unc_uh" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "unc_uh" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_uh_label" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "unc_uh"        CDF_DOUBLE     1       1     5        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Uncertainty in differential intensity " -
+                                 "for Ultra-Heavy ions at root-2-spaced " -
+                                 "energy-per-nucleon channels" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Uncertainty - Ultra-Heavy" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 4096.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_uh" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_uh_label" }
+    "COORDINATE_SYSTEM"
+                  CDF_CHAR     { "instrument frame" }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_junk_minus"
+                  CDF_DOUBLE     1       1     1        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Lower energy half-width for Junk" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Junk Energy Delta Minus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_junk" } .
+
+  ! NRV values follow...
+
+    [1] = 0.003784
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_junk_plus"
+                  CDF_DOUBLE     1       1     1        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Upper energy half-width for Junk" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Junk Energy Delta Plus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_junk" } .
+
+  ! NRV values follow...
+
+    [1] = 0.004500
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "junk"          CDF_DOUBLE     1       1     1        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Differential intensity for Junk " -
+                                 "(unclassified counts) at root-2-spaced" -
+                                 " energy-per-nucleon channels" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:NumberFlux,Qualifier:Differ" -
+                                 "ential" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Differential Intensity - Junk" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 16777216.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_junk" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "unc_junk" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "unc_junk" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_junk_label" }
+    "VAR_NOTES"   CDF_CHAR     { "Catch-all bin for counts that do not " -
+                                 "fall into any CoDICE Hi species " -
+                                 "classification bin. " } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "unc_junk"      CDF_DOUBLE     1       1     1        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Uncertainty in differential intensity " -
+                                 "for Junk (unclassified counts) at " -
+                                 "root-2-spaced energy-per-nucleon " -
+                                 "channels" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Uncertainty - Junk" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F32.1" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "# / cm2 s sr MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 4096.0 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_1"    CDF_CHAR     { "energy_junk" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "LABL_PTR_1"  CDF_CHAR     { "energy_junk_label" }
+    "COORDINATE_SYSTEM"
+                  CDF_CHAR     { "instrument frame" }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " }
+    "VAR_NOTES"   CDF_CHAR     { "Catch-all uncertainty bin for counts " -
+                                 "that do not fall into any CoDICE Hi " -
+                                 "species classification bin. " } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "data_quality"
+                  CDF_UINT1      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: 254
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Data Quality (0=good, 1=suspect)" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Support>SupportQuantity:DataQual" -
+                                 "ity" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Data Quality" }
+    "FILLVAL"     CDF_UINT1    { 255 }
+    "FORMAT"      CDF_CHAR     { "I3" }
+    "LABLAXIS"    CDF_CHAR     { "Data Quality" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "UNITS"       CDF_CHAR     { "0=good" }
+    "VALIDMAX"    CDF_UINT1    { 1 }
+    "VALIDMIN"    CDF_UINT1    { 0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "VAR_NOTES"   CDF_CHAR     { "Quality flag propagated from the " -
+                                 "packet-level suspect bit. 0 = good " -
+                                 "data. 1 = suspect data. 255 = fill " -
+                                 "when no data are present. " } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "epoch_delta_minus"
+                  CDF_INT8       1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -9223372036854775807
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Time from acquisition start to " -
+                                 "acquisition center" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Support>SupportQuantity:Temporal" -
+                                 ",Qualifier:Uncertainty" }
+    "FIELDNAM"    CDF_CHAR     { "epoch delta minus" }
+    "FILLVAL"     CDF_INT8     { -9223372036854775808 }
+    "FORMAT"      CDF_CHAR     { "I19" }
+    "LABLAXIS"    CDF_CHAR     { "Epoch Delta Minus" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "UNITS"       CDF_CHAR     { "ns" }
+    "VALIDMAX"    CDF_INT8     { 128000000000 }
+    "VALIDMIN"    CDF_INT8     { 0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "epoch_delta_plus"
+                  CDF_INT8       1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -9223372036854775807
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Time from acquisition center to " -
+                                 "acquisition end" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Support>SupportQuantity:Temporal" -
+                                 ",Qualifier:Uncertainty" }
+    "FIELDNAM"    CDF_CHAR     { "epoch delta plus" }
+    "FILLVAL"     CDF_INT8     { -9223372036854775808 }
+    "FORMAT"      CDF_CHAR     { "I19" }
+    "LABLAXIS"    CDF_CHAR     { "Epoch Delta Plus" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "UNITS"       CDF_CHAR     { "ns" }
+    "VALIDMAX"    CDF_INT8     { 128000000000 }
+    "VALIDMIN"    CDF_INT8     { 0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_h_label"
+                  CDF_CHAR      20       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Energy-channel labels for H " -
+                                 "differential intensity" }
+    "FIELDNAM"    CDF_CHAR     { "H Energy Channel Labels" }
+    "FORMAT"      CDF_CHAR     { "A32" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "DEPEND_1"    CDF_CHAR     { "energy_h" } .
+
+  ! NRV values follow...
+
+    [1] = { "H int @0.024 MeV/nuc" }
+    [2] = { "H int @0.034 MeV/nuc" }
+    [3] = { "H int @0.048 MeV/nuc" }
+    [4] = { "H int @0.067 MeV/nuc" }
+    [5] = { "H int @0.095 MeV/nuc" }
+    [6] = { "H int @0.135 MeV/nuc" }
+    [7] = { "H int @0.190 MeV/nuc" }
+    [8] = { "H int @0.269 MeV/nuc" }
+    [9] = { "H int @0.381 MeV/nuc" }
+    [10] = { "H int @0.538 MeV/nuc" }
+    [11] = { "H int @0.761 MeV/nuc" }
+    [12] = { "H int @1.076 MeV/nuc" }
+    [13] = { "H int @1.522 MeV/nuc" }
+    [14] = { "H int @2.153 MeV/nuc" }
+    [15] = { "H int @3.044 MeV/nuc" }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_he3_label"
+                  CDF_CHAR      22       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Energy-channel labels for He3 " -
+                                 "differential intensity" }
+    "FIELDNAM"    CDF_CHAR     { "He3 Energy Channel Labels" }
+    "FORMAT"      CDF_CHAR     { "A32" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "DEPEND_1"    CDF_CHAR     { "energy_he3" } .
+
+  ! NRV values follow...
+
+    [1] = { "He3 int @0.024 MeV/nuc" }
+    [2] = { "He3 int @0.034 MeV/nuc" }
+    [3] = { "He3 int @0.048 MeV/nuc" }
+    [4] = { "He3 int @0.067 MeV/nuc" }
+    [5] = { "He3 int @0.095 MeV/nuc" }
+    [6] = { "He3 int @0.135 MeV/nuc" }
+    [7] = { "He3 int @0.190 MeV/nuc" }
+    [8] = { "He3 int @0.269 MeV/nuc" }
+    [9] = { "He3 int @0.381 MeV/nuc" }
+    [10] = { "He3 int @0.538 MeV/nuc" }
+    [11] = { "He3 int @0.761 MeV/nuc" }
+    [12] = { "He3 int @1.076 MeV/nuc" }
+    [13] = { "He3 int @1.522 MeV/nuc" }
+    [14] = { "He3 int @2.153 MeV/nuc" }
+    [15] = { "He3 int @3.044 MeV/nuc" }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_he4_label"
+                  CDF_CHAR      22       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Energy-channel labels for He4 " -
+                                 "differential intensity" }
+    "FIELDNAM"    CDF_CHAR     { "He4 Energy Channel Labels" }
+    "FORMAT"      CDF_CHAR     { "A32" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "DEPEND_1"    CDF_CHAR     { "energy_he4" } .
+
+  ! NRV values follow...
+
+    [1] = { "He4 int @0.024 MeV/nuc" }
+    [2] = { "He4 int @0.034 MeV/nuc" }
+    [3] = { "He4 int @0.048 MeV/nuc" }
+    [4] = { "He4 int @0.067 MeV/nuc" }
+    [5] = { "He4 int @0.095 MeV/nuc" }
+    [6] = { "He4 int @0.135 MeV/nuc" }
+    [7] = { "He4 int @0.190 MeV/nuc" }
+    [8] = { "He4 int @0.269 MeV/nuc" }
+    [9] = { "He4 int @0.381 MeV/nuc" }
+    [10] = { "He4 int @0.538 MeV/nuc" }
+    [11] = { "He4 int @0.761 MeV/nuc" }
+    [12] = { "He4 int @1.076 MeV/nuc" }
+    [13] = { "He4 int @1.522 MeV/nuc" }
+    [14] = { "He4 int @2.153 MeV/nuc" }
+    [15] = { "He4 int @3.044 MeV/nuc" }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_c_label"
+                  CDF_CHAR      20       1     18       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Energy-channel labels for C " -
+                                 "differential intensity" }
+    "FIELDNAM"    CDF_CHAR     { "C Energy Channel Labels" }
+    "FORMAT"      CDF_CHAR     { "A32" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "DEPEND_1"    CDF_CHAR     { "energy_c" } .
+
+  ! NRV values follow...
+
+    [1] = { "C int @0.024 MeV/nuc" }
+    [2] = { "C int @0.034 MeV/nuc" }
+    [3] = { "C int @0.048 MeV/nuc" }
+    [4] = { "C int @0.067 MeV/nuc" }
+    [5] = { "C int @0.095 MeV/nuc" }
+    [6] = { "C int @0.135 MeV/nuc" }
+    [7] = { "C int @0.190 MeV/nuc" }
+    [8] = { "C int @0.269 MeV/nuc" }
+    [9] = { "C int @0.381 MeV/nuc" }
+    [10] = { "C int @0.538 MeV/nuc" }
+    [11] = { "C int @0.761 MeV/nuc" }
+    [12] = { "C int @1.076 MeV/nuc" }
+    [13] = { "C int @1.522 MeV/nuc" }
+    [14] = { "C int @2.153 MeV/nuc" }
+    [15] = { "C int @3.044 MeV/nuc" }
+    [16] = { "C int @4.305 MeV/nuc" }
+    [17] = { "C int @6.089 MeV/nuc" }
+    [18] = { "C int @8.611 MeV/nuc" }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_o_label"
+                  CDF_CHAR      20       1     18       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Energy-channel labels for O " -
+                                 "differential intensity" }
+    "FIELDNAM"    CDF_CHAR     { "O Energy Channel Labels" }
+    "FORMAT"      CDF_CHAR     { "A32" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "DEPEND_1"    CDF_CHAR     { "energy_o" } .
+
+  ! NRV values follow...
+
+    [1] = { "O int @0.024 MeV/nuc" }
+    [2] = { "O int @0.034 MeV/nuc" }
+    [3] = { "O int @0.048 MeV/nuc" }
+    [4] = { "O int @0.067 MeV/nuc" }
+    [5] = { "O int @0.095 MeV/nuc" }
+    [6] = { "O int @0.135 MeV/nuc" }
+    [7] = { "O int @0.190 MeV/nuc" }
+    [8] = { "O int @0.269 MeV/nuc" }
+    [9] = { "O int @0.381 MeV/nuc" }
+    [10] = { "O int @0.538 MeV/nuc" }
+    [11] = { "O int @0.761 MeV/nuc" }
+    [12] = { "O int @1.076 MeV/nuc" }
+    [13] = { "O int @1.522 MeV/nuc" }
+    [14] = { "O int @2.153 MeV/nuc" }
+    [15] = { "O int @3.044 MeV/nuc" }
+    [16] = { "O int @4.305 MeV/nuc" }
+    [17] = { "O int @6.089 MeV/nuc" }
+    [18] = { "O int @8.611 MeV/nuc" }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_ne_mg_si_label"
+                  CDF_CHAR      27       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Energy-channel labels for Ne+Mg+Si " -
+                                 "differential intensity" }
+    "FIELDNAM"    CDF_CHAR     { "Ne+Mg+Si Energy Channel Labels" }
+    "FORMAT"      CDF_CHAR     { "A32" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "DEPEND_1"    CDF_CHAR     { "energy_ne_mg_si" } .
+
+  ! NRV values follow...
+
+    [1] = { "Ne+Mg+Si int @0.024 MeV/nuc" }
+    [2] = { "Ne+Mg+Si int @0.034 MeV/nuc" }
+    [3] = { "Ne+Mg+Si int @0.048 MeV/nuc" }
+    [4] = { "Ne+Mg+Si int @0.067 MeV/nuc" }
+    [5] = { "Ne+Mg+Si int @0.095 MeV/nuc" }
+    [6] = { "Ne+Mg+Si int @0.135 MeV/nuc" }
+    [7] = { "Ne+Mg+Si int @0.190 MeV/nuc" }
+    [8] = { "Ne+Mg+Si int @0.269 MeV/nuc" }
+    [9] = { "Ne+Mg+Si int @0.381 MeV/nuc" }
+    [10] = { "Ne+Mg+Si int @0.538 MeV/nuc" }
+    [11] = { "Ne+Mg+Si int @0.761 MeV/nuc" }
+    [12] = { "Ne+Mg+Si int @1.076 MeV/nuc" }
+    [13] = { "Ne+Mg+Si int @1.522 MeV/nuc" }
+    [14] = { "Ne+Mg+Si int @2.153 MeV/nuc" }
+    [15] = { "Ne+Mg+Si int @3.044 MeV/nuc" }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_fe_label"
+                  CDF_CHAR      21       1     18       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Energy-channel labels for Fe " -
+                                 "differential intensity" }
+    "FIELDNAM"    CDF_CHAR     { "Fe Energy Channel Labels" }
+    "FORMAT"      CDF_CHAR     { "A32" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "DEPEND_1"    CDF_CHAR     { "energy_fe" } .
+
+  ! NRV values follow...
+
+    [1] = { "Fe int @0.024 MeV/nuc" }
+    [2] = { "Fe int @0.034 MeV/nuc" }
+    [3] = { "Fe int @0.048 MeV/nuc" }
+    [4] = { "Fe int @0.067 MeV/nuc" }
+    [5] = { "Fe int @0.095 MeV/nuc" }
+    [6] = { "Fe int @0.135 MeV/nuc" }
+    [7] = { "Fe int @0.190 MeV/nuc" }
+    [8] = { "Fe int @0.269 MeV/nuc" }
+    [9] = { "Fe int @0.381 MeV/nuc" }
+    [10] = { "Fe int @0.538 MeV/nuc" }
+    [11] = { "Fe int @0.761 MeV/nuc" }
+    [12] = { "Fe int @1.076 MeV/nuc" }
+    [13] = { "Fe int @1.522 MeV/nuc" }
+    [14] = { "Fe int @2.153 MeV/nuc" }
+    [15] = { "Fe int @3.044 MeV/nuc" }
+    [16] = { "Fe int @4.305 MeV/nuc" }
+    [17] = { "Fe int @6.089 MeV/nuc" }
+    [18] = { "Fe int @8.611 MeV/nuc" }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_uh_label"
+                  CDF_CHAR      30       1     5        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Energy-channel labels for Ultra-Heavy " -
+                                 "differential intensity" }
+    "FIELDNAM"    CDF_CHAR     { "Ultra-Heavy Energy Channel Labels" }
+    "FORMAT"      CDF_CHAR     { "A32" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "DEPEND_1"    CDF_CHAR     { "energy_uh" } .
+
+  ! NRV values follow...
+
+    [1] = { "Ultra-Heavy int @0.024 MeV/nuc" }
+    [2] = { "Ultra-Heavy int @0.034 MeV/nuc" }
+    [3] = { "Ultra-Heavy int @0.048 MeV/nuc" }
+    [4] = { "Ultra-Heavy int @0.067 MeV/nuc" }
+    [5] = { "Ultra-Heavy int @0.095 MeV/nuc" }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_junk_label"
+                  CDF_CHAR      23       1     1        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Energy-channel labels for Junk " -
+                                 "differential intensity" }
+    "FIELDNAM"    CDF_CHAR     { "Junk Energy Channel Labels" }
+    "FORMAT"      CDF_CHAR     { "A32" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "DEPEND_1"    CDF_CHAR     { "energy_junk" } .
+
+  ! NRV values follow...
+
+    [1] = { "Junk int @0.024 MeV/nuc" }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_h"      CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Geometric mean energy per nucleon for H" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:C" -
+                                 "haracteristic" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "H Energy" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "energy_h_minus" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "energy_h_plus" } .
+
+  ! NRV values follow...
+
+    [1] = 0.023784
+    [2] = 0.033636
+    [3] = 0.047568
+    [4] = 0.067272
+    [5] = 0.095137
+    [6] = 0.134543
+    [7] = 0.190273
+    [8] = 0.269087
+    [9] = 0.380546
+    [10] = 0.538174
+    [11] = 0.761093
+    [12] = 1.076347
+    [13] = 1.522185
+    [14] = 2.152695
+    [15] = 3.044370
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_he3"    CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Geometric mean energy per nucleon for " -
+                                 "He3" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:C" -
+                                 "haracteristic" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "He3 Energy" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "energy_he3_minus" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "energy_he3_plus" } .
+
+  ! NRV values follow...
+
+    [1] = 0.023784
+    [2] = 0.033636
+    [3] = 0.047568
+    [4] = 0.067272
+    [5] = 0.095137
+    [6] = 0.134543
+    [7] = 0.190273
+    [8] = 0.269087
+    [9] = 0.380546
+    [10] = 0.538174
+    [11] = 0.761093
+    [12] = 1.076347
+    [13] = 1.522185
+    [14] = 2.152695
+    [15] = 3.044370
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_he4"    CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Geometric mean energy per nucleon for " -
+                                 "He4" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:C" -
+                                 "haracteristic" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "He4 Energy" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "energy_he4_minus" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "energy_he4_plus" } .
+
+  ! NRV values follow...
+
+    [1] = 0.023784
+    [2] = 0.033636
+    [3] = 0.047568
+    [4] = 0.067272
+    [5] = 0.095137
+    [6] = 0.134543
+    [7] = 0.190273
+    [8] = 0.269087
+    [9] = 0.380546
+    [10] = 0.538174
+    [11] = 0.761093
+    [12] = 1.076347
+    [13] = 1.522185
+    [14] = 2.152695
+    [15] = 3.044370
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_c"      CDF_DOUBLE     1       1     18       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Geometric mean energy per nucleon for C" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:C" -
+                                 "haracteristic" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "C Energy" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "energy_c_minus" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "energy_c_plus" } .
+
+  ! NRV values follow...
+
+    [1] = 0.023784
+    [2] = 0.033636
+    [3] = 0.047568
+    [4] = 0.067272
+    [5] = 0.095137
+    [6] = 0.134543
+    [7] = 0.190273
+    [8] = 0.269087
+    [9] = 0.380546
+    [10] = 0.538174
+    [11] = 0.761093
+    [12] = 1.076347
+    [13] = 1.522185
+    [14] = 2.152695
+    [15] = 3.044370
+    [16] = 4.305390
+    [17] = 6.088740
+    [18] = 8.610779
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_o"      CDF_DOUBLE     1       1     18       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Geometric mean energy per nucleon for O" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:C" -
+                                 "haracteristic" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "O Energy" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "energy_o_minus" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "energy_o_plus" } .
+
+  ! NRV values follow...
+
+    [1] = 0.023784
+    [2] = 0.033636
+    [3] = 0.047568
+    [4] = 0.067272
+    [5] = 0.095137
+    [6] = 0.134543
+    [7] = 0.190273
+    [8] = 0.269087
+    [9] = 0.380546
+    [10] = 0.538174
+    [11] = 0.761093
+    [12] = 1.076347
+    [13] = 1.522185
+    [14] = 2.152695
+    [15] = 3.044370
+    [16] = 4.305390
+    [17] = 6.088740
+    [18] = 8.610779
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_ne_mg_si"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Geometric mean energy per nucleon for " -
+                                 "Ne+Mg+Si" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:C" -
+                                 "haracteristic" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Ne+Mg+Si Energy" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "energy_ne_mg_si_minus" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "energy_ne_mg_si_plus" } .
+
+  ! NRV values follow...
+
+    [1] = 0.023784
+    [2] = 0.033636
+    [3] = 0.047568
+    [4] = 0.067272
+    [5] = 0.095137
+    [6] = 0.134543
+    [7] = 0.190273
+    [8] = 0.269087
+    [9] = 0.380546
+    [10] = 0.538174
+    [11] = 0.761093
+    [12] = 1.076347
+    [13] = 1.522185
+    [14] = 2.152695
+    [15] = 3.044370
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_fe"     CDF_DOUBLE     1       1     18       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Geometric mean energy per nucleon for Fe" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:C" -
+                                 "haracteristic" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Fe Energy" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "energy_fe_minus" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "energy_fe_plus" } .
+
+  ! NRV values follow...
+
+    [1] = 0.023784
+    [2] = 0.033636
+    [3] = 0.047568
+    [4] = 0.067272
+    [5] = 0.095137
+    [6] = 0.134543
+    [7] = 0.190273
+    [8] = 0.269087
+    [9] = 0.380546
+    [10] = 0.538174
+    [11] = 0.761093
+    [12] = 1.076347
+    [13] = 1.522185
+    [14] = 2.152695
+    [15] = 3.044370
+    [16] = 4.305390
+    [17] = 6.088740
+    [18] = 8.610779
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_uh"     CDF_DOUBLE     1       1     5        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Geometric mean energy per nucleon for " -
+                                 "Ultra-Heavy ions" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:C" -
+                                 "haracteristic" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Ultra-Heavy Energy" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "energy_uh_minus" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "energy_uh_plus" } .
+
+  ! NRV values follow...
+
+    [1] = 0.023784
+    [2] = 0.033636
+    [3] = 0.047568
+    [4] = 0.067272
+    [5] = 0.095137
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_junk"   CDF_DOUBLE     1       1     1        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Geometric mean energy per nucleon for " -
+                                 "Junk" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:C" -
+                                 "haracteristic" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "Junk Energy" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "F12.6" }
+    "LABLAXIS"    CDF_CHAR     { "Energy" }
+    "SCALETYP"    CDF_CHAR     { "log" }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "energy_junk_minus" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "energy_junk_plus" } .
+
+  ! NRV values follow...
+
+    [1] = 0.023784
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "epoch"     CDF_TIME_TT2000     1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: 0000-01-01T00:00:00.000000000
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Time, number of nanoseconds since " -
+                                 "J2000 with leap seconds included" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Support>SupportQuantity:Temporal" }
+    "FIELDNAM"    CDF_CHAR     { "epoch" }
+    "FILLVAL"
+              CDF_TIME_TT2000   { 9999-12-31T23:59:59.999999999 }
+    "FORMAT"      CDF_CHAR     { " " }
+    "LABLAXIS"    CDF_CHAR     { "epoch" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "UNITS"       CDF_CHAR     { "ns" }
+    "VALIDMAX"
+              CDF_TIME_TT2000   { 2100-01-01T00:00:00.000000000 }
+    "VALIDMIN"
+              CDF_TIME_TT2000   { 2010-01-01T00:00:00.000000000 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DELTA_MINUS_VAR"
+                  CDF_CHAR     { "epoch_delta_minus" }
+    "DELTA_PLUS_VAR"
+                  CDF_CHAR     { "epoch_delta_plus" }
+    "MONOTON"     CDF_CHAR     { "INCREASE" }
+    "REFERENCE_POSITION"
+                  CDF_CHAR     { "Rotating Earth Geoid" }
+    "RESOLUTION"  CDF_CHAR     { " " }
+    "TIME_BASE"   CDF_CHAR     { "J2000" }
+    "TIME_SCALE"  CDF_CHAR     { "Terrestrial Time" } .
+
+  ! RV values were not requested.
+
+
+#end
