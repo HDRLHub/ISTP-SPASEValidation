@@ -1,0 +1,382 @@
+! Skeleton table for the "imap_codice_l2_hi-omni_00000000_v01.cdf" CDF.
+! Generated: Thursday, 27-Aug-2026 09:15:45
+! CDF created/modified by CDF V3.9.2
+! Skeleton table created by CDF V3.8.1_0
+
+#header
+
+                       CDF NAME: imap_codice_l2_hi-omni_00000000_v01.cdf
+                  DATA ENCODING: IBMPC
+                       MAJORITY: ROW
+                         FORMAT: SINGLE
+
+! Variables  G.Attributes  V.Attributes  Records  Dims  Sizes
+! ---------  ------------  ------------  -------  ----  -----
+    0/58          25            25         0/z      0
+! CDF_COMPRESSION: None
+! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+! CDF_CHECKSUM: None
+! (Valid checksum: None, MD5)
+! CDF_LEAPSECONDLASTUPDATED: 20170101
+
+
+#GLOBALattributes
+
+! Attribute         Entry       Data
+! Name              Number      Type       Value
+! ---------         ------      ----       -----
+
+  "Acknowledgement"     1:    CDF_CHAR     { "Users should acknowledge " -
+                                             "the sources of data used " -
+                                             "in all publications, " -
+                                             "presentations, and reports" -
+                                             " using an appropriate DOI." -
+                                             " Appropriate " -
+                                             "acknowledgement to " -
+                                             "institutions, personnel, " -
+                                             "and funding agencies " -
+                                             "should be given, including" -
+                                             " acknowledging the IMAP " -
+                                             "Mission Principal " -
+                                             "Investigator, Prof. David " -
+                                             "J. McComas of Princeton " -
+                                             "University (Contract " -
+                                             "#80GSFC19C0027). IMAP " -
+                                             "Rules-of-the-Road for data" -
+                                             " usage can be found in the" -
+                                             " IMAP CMAD. " } .
+
+  "Data_type"           1:    CDF_CHAR     { "L2_hi-omni>Level-2 Hi " -
+                                             "Omnidirectional Species " -
+                                             "Intensities Data" } .
+
+  "Data_version"        1:    CDF_CHAR     { "1.1" } .
+
+  "Descriptor"          1:    CDF_CHAR     { "CoDICE>Compact Dual Ion " -
+                                             "Composition Experiment" } .
+
+  "Discipline"          1:    CDF_CHAR     { "Solar Physics>Heliospheric" -
+                                             " Physics" } .
+
+  "DOI"			1:    CDF_CHAR	   { "https://doi.org/10.48322/6cfb-rq65" }.
+  
+  "HTTP_LINK"           1:    CDF_CHAR     { "https://imap.princeton.edu/" }
+                        2:    CDF_CHAR     { "https://link.springer.com/" -
+                                             "collections/djacjcecei" }
+                        3:    CDF_CHAR     { "https://spdf.gsfc.nasa.gov" -
+                                             "/pub/data/imap/documents/c" -
+                                             "mad/" } .
+
+  "Instrument_type"     1:    CDF_CHAR     { "Particles (space)" } .
+
+  "LINK_TEXT"           1:    CDF_CHAR     { "Mission Website" }
+                        2:    CDF_CHAR     { "Reference Publication" }
+                        3:    CDF_CHAR     { "CMAD" } .
+
+  "LINK_TITLE"          1:    CDF_CHAR     { "IMAP The Interstellar " -
+                                             "Mapping and Acceleration " -
+                                             "Probe" }
+                        2:    CDF_CHAR     { "IMAP Mission and Science " -
+                                             "Instruments Special Paper " -
+                                             "Collection" }
+                        3:    CDF_CHAR     { "IMAP Calibration and " -
+                                             "Measurement Algorithms " -
+                                             "Document (CMAD)" } .
+
+  "Logical_source"      1:    CDF_CHAR     { "imap_codice_l2_hi-omni" } .
+
+  "Logical_source_description"
+                        1:    CDF_CHAR     { "IMAP Mission CoDICE Hi " -
+                                             "Level-2 Omnidirectional " -
+                                             "Species Intensity Data." } .
+
+  "Mission_group"       1:    CDF_CHAR     { "IMAP" } .
+
+  "Time_resolution" 	1:    CDF_CHAR     { "PT0.625S" }.
+
+  "TITLE"		1:    CDF_CHAR     { "Example Title" }.
+
+  "PI_affiliation"      1:    CDF_CHAR     { "Princeton University" } .
+
+  "PI_name"             1:    CDF_CHAR     { "Prof. David J. McComas" } .
+
+  "Project"             1:    CDF_CHAR     { "STP>Solar Terrestrial Probes" } .
+
+  "Rules_of_use"        1:    CDF_CHAR     { "All IMAP data products are" -
+                                             " publicly released and " -
+                                             "citable for use in " -
+                                             "publications. Please " -
+                                             "consult the IMAP team " -
+                                             "publications and personnel" -
+                                             " for further details on " -
+                                             "production, processing, " -
+                                             "and usage of these data. " } .
+
+  "Source_name"         1:    CDF_CHAR     { "IMAP>Interstellar Mapping " -
+                                             "and Acceleration Probe" } .
+
+  "TEXT"                1:    CDF_CHAR     { "The Compact Dual Ion " -
+                                             "Composition Experiment " -
+                                             "(CoDICE) will measure the " -
+                                             "distributions and " -
+                                             "composition of " -
+                                             "interstellar pickup ions " -
+                                             "(PUIs), particles that " -
+                                             "make it through the " -
+                                             "heliosheath into the " -
+                                             "heliosphere. CoDICE also " -
+                                             "collects and characterizes" -
+                                             " solar wind ions including" -
+                                             " the mass and composition " -
+                                             "of highly energized " -
+                                             "particles (called " -
+                                             "suprathermal) from the " -
+                                             "Sun. CoDICE combines an " -
+                                             "electrostatic analyzer " -
+                                             "(ESA) with a " -
+                                             "Time-Of-Flight versus " -
+                                             "Energy (TOF / E) subsystem" -
+                                             " to simultaneously measure" -
+                                             " the velocity, arrival " -
+                                             "direction, ionic charge " -
+                                             "state, and mass of " -
+                                             "specific species of ions " -
+                                             "in the LISM. CoDICE also " -
+                                             "has a path for higher " -
+                                             "energy particles to skip " -
+                                             "the ESA but still get " -
+                                             "measured by the common TOF" -
+                                             " / E system. These " -
+                                             "measurements are critical " -
+                                             "in determining the Local " -
+                                             "Interstellar Medium (LISM)" -
+                                             " composition and flow " -
+                                             "properties, the origin of " -
+                                             "the enigmatic suprathermal" -
+                                             " tails on the solar wind " -
+                                             "distributions and advance " -
+                                             "understanding of the " -
+                                             "acceleration of particles " -
+                                             "in the heliosphere. " } .
+
+
+
+
+#VARIABLEattributes
+
+  "CATDESC"
+  "DICT_KEY"
+  "FIELDNAM"
+  "FILLVAL"
+  "UNITS"
+  "VALIDMAX"
+  "VALIDMIN"
+  "COORDINATE_SYSTEM"
+  "SI_CONVERSION"
+  "VAR_NOTES"
+  "MONOTON"
+
+#variables
+
+! No rVariables.
+
+
+#zVariables
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_h_minus"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Lower energy half-width for H" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Field>Qualifier:Uncertainty," -
+                                 "FieldQuantity:Electromagnetic }
+    "FIELDNAM"    CDF_CHAR     { "H Energy Delta Minus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "FRAME"       CDF_CHAR     { "vector>gse_xyz" }
+    "COORDINATE_SYSTEM"
+                  CDF_CHAR     { "instrument frame" }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " } 
+    "VAR_NOTES"   CDF_CHAR     { "Catch-all bin for counts that do not " -
+                                 "fall into any CoDICE Hi species " -
+                                 "classification bin. " } 
+    "MONOTON"     CDF_CHAR     { "INCREASE" }
+    "AVG_TYPE"    CDF_CHAR     { "Example avg_type entry" }.
+
+  ! RV values were not requested.
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_h_plus"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Upper energy half-width for H" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
+                                 "leQuantity:EnergyPerCharge,Qualifier:U" -
+                                 "ncertainty,AtomicNumber:5" }
+    "FIELDNAM"    CDF_CHAR     { "H Energy Delta Plus" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "FRAME"       CDF_CHAR     { "vector>inst_xyz" }
+    "COORDINATE_SYSTEM"
+                  CDF_CHAR     { "instrument frame" }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " } 
+    "VAR_NOTES"   CDF_CHAR     { "Catch-all bin for counts that do not " -
+                                 "fall into any CoDICE Hi species " -
+                                 "classification bin. " } 
+    "MONOTON"     CDF_CHAR     { "INCREASE" }
+    "AVG_TYPE"    CDF_CHAR     { "Example avg_type entry" }.
+
+  ! RV values were not requested.
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_h_base"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Base energy half-width for H" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Wave>WaveType:MHD,Wave" -
+                                 "Quantity:EquivalentWidth,Qualifier:U" -
+                                 "ncertainty" }
+    "FIELDNAM"    CDF_CHAR     { "H Energy Delta Base" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "COORDINATE_SYSTEM"
+                  CDF_CHAR     { "SpacecraftOrbitPlane_xyz" }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " } 
+    "VAR_NOTES"   CDF_CHAR     { "Catch-all bin for counts that do not " -
+                                 "fall into any CoDICE Hi species " -
+                                 "classification bin. " } 
+    "MONOTON"     CDF_CHAR     { "INCREASE" }
+    "AVG_TYPE"    CDF_CHAR     { "Example avg_type entry" }.
+
+  ! RV values were not requested.
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_h_top"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Top energy half-width for H" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Mixed>ParticleType:Ion,Mixed" -
+                                 "Quantity:PlasmaBeta,Qualifier:U" -
+                                 "ncertainty" }
+    "FIELDNAM"    CDF_CHAR     { "H Energy Delta Top" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "COORDINATE_SYSTEM"
+                  CDF_CHAR     { "inst_xyz" }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " } 
+    "VAR_NOTES"   CDF_CHAR     { "Catch-all bin for counts that do not " -
+                                 "fall into any CoDICE Hi species " -
+                                 "classification bin. " } 
+    "MONOTON"     CDF_CHAR     { "INCREASE" }
+    "AVG_TYPE"    CDF_CHAR     { "Example avg_type entry" }.
+
+  ! RV values were not requested.
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "energy_h_extra"
+                  CDF_DOUBLE     1       1     15       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Extra energy half-width for H" }
+    "DICT_KEY"    CDF_CHAR     { "SPASE>Support>SupportQuantity:DataQuality," -
+                                 "Qualifier:Uncertainty,Parameter>SpatialCo" -
+				 "verage>CoordinateSystem>CoordinateSystemName:" -
+				 "GSE,Parameter>SpatialCoverage>CoordinateSys" -
+				 "tem>CoordinateRepresentation:Cartesian" }
+    "FIELDNAM"    CDF_CHAR     { "H Energy Delta Extra" }
+    "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
+    "UNITS"       CDF_CHAR     { "MeV/nuc" }
+    "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
+    "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
+    "SI_CONVERSION"
+                  CDF_CHAR     { " > " } 
+    "VAR_NOTES"   CDF_CHAR     { "Catch-all bin for counts that do not " -
+                                 "fall into any CoDICE Hi species " -
+                                 "classification bin. " } 
+    "MONOTON"     CDF_CHAR     { "INCREASE" }
+    "AVG_TYPE"    CDF_CHAR     { "Example avg_type entry" }.
+
+  ! RV values were not requested.
+
+#end
