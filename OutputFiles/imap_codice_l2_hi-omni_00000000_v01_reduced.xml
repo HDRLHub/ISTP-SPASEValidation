@@ -7,17 +7,21 @@
       <Acknowledgement>Users should acknowledge the sources of data used in all publications presentations, and reports using an appropriate DOI. Appropriate acknowledgement to institutions, personnel and funding agencies should be given, including acknowledging the IMAP Mission Principal Investigator, Prof. David J. McComas of University (Contract #80GSFC19C0027). IMAP Rules-of-the-Road for data usage can be found in the IMAP CMAD.</Acknowledgement>
       <AlternateName>imap_codice_l2_hi-omni</AlternateName>
       <Description>The Compact Dual Ion Composition Experiment (CoDICE) will measure the distributions and composition of interstellar pickup ions (PUIs), particles that make it through the heliosheath into the heliosphere. CoDICE also collects and characterizes solar wind ions including the mass and composition of highly energized particles (called suprathermal) from the Sun. CoDICE combines an electrostatic analyzer (ESA) with a Time-Of-Flight versus Energy (TOF / E) subsystem to simultaneously measure the velocity, arrival direction, ionic charge state, and mass of specific species of ions in the LISM. CoDICE also has a path for higher energy particles to skip the ESA but still get measured by the common TOF / E system. These measurements are critical in determining the Local Interstellar Medium (LISM) composition and flow properties, the origin of the enigmatic suprathermal tails on the solar wind distributions and advance understanding of the acceleration of particles in the heliosphere.</Description>
+      <Caveats>All IMAP data products are publicly released and citable for use in publications. Please consult the IMAP team publications and personnel for further details on production, processing, and usage of these data.</Caveats>
       <InformationURL>
         <Name>IMAP The Interstellar Mapping and Acceleration Probe</Name>
         <URL>https://imap.princeton.edu/</URL>
+        <Description>Mission Website</Description>
       </InformationURL>
       <InformationURL>
         <Name>IMAP Mission and Science Instruments Special Paper Collection</Name>
         <URL>https://link.springer.com/collections/djacjcecei</URL>
+        <Description>Reference Publication</Description>
       </InformationURL>
       <InformationURL>
         <Name>IMAP Calibration and Measurement Algorithms Document (CMAD)</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/imap/documents/cmad/</URL>
+        <Description>CMAD</Description>
       </InformationURL>
     </ResourceHeader>
     <Keyword>L2_hi-omni</Keyword>
@@ -28,6 +32,7 @@
     <Keyword>Heliospheric Physics</Keyword>
     <Keyword>IMAP</Keyword>
     <Keyword>Interstellar Mapping and Acceleration Probe</Keyword>
+    <ProviderVersion>1.1</ProviderVersion>
     <Parameter>
       <Name>H Energy Delta Minus</Name>
       <ParameterKey>energy_h_minus</ParameterKey>
