@@ -50,17 +50,13 @@
                                              "Omnidirectional Species " -
                                              "Intensities Data" } .
 
-  "Data_version"        1:    CDF_CHAR     { " " } .
+  "Data_version"        1:    CDF_CHAR     { "1.1" } .
 
   "Descriptor"          1:    CDF_CHAR     { "CoDICE>Compact Dual Ion " -
                                              "Composition Experiment" } .
 
   "Discipline"          1:    CDF_CHAR     { "Solar Physics>Heliospheric" -
                                              " Physics" } .
-
-  "File_naming_convention"
-                        1:    CDF_CHAR     { "source_descriptor_datatype" -
-                                             "_yyyyMMdd_vMMM.mmmm" } .
 
   "HTTP_LINK"           1:    CDF_CHAR     { "https://imap.princeton.edu/" }
                         2:    CDF_CHAR     { "https://link.springer.com/" -
@@ -80,8 +76,6 @@
                         3:    CDF_CHAR     { "IMAP Calibration and " -
                                              "Measurement Algorithms " -
                                              "Document (CMAD)" } .
-
-  "Logical_file_id"     1:    CDF_CHAR     { " " } .
 
   "Logical_source"      1:    CDF_CHAR     { "imap_codice_l2_hi-omni" } .
 
@@ -157,8 +151,6 @@
 
   "Start_date"          1:    CDF_CHAR     { " " } .
 
-  "Parents"             1:    CDF_CHAR     { " " } .
-
   "ground_software_version"
                         1:    CDF_CHAR     { " " } .
 
@@ -175,30 +167,15 @@
 
   "CATDESC"
   "DICT_KEY"
-  "DISPLAY_TYPE"
   "FIELDNAM"
   "FILLVAL"
-  "FORMAT"
-  "LABLAXIS"
-  "SCALETYP"
   "UNITS"
   "VALIDMAX"
   "VALIDMIN"
-  "VAR_TYPE"
-  "DEPEND_1"
-  "DELTA_MINUS_VAR"
-  "DELTA_PLUS_VAR"
-  "DEPEND_0"
-  "LABL_PTR_1"
   "COORDINATE_SYSTEM"
   "SI_CONVERSION"
   "VAR_NOTES"
   "MONOTON"
-  "REFERENCE_POSITION"
-  "RESOLUTION"
-  "TIME_BASE"
-  "TIME_SCALE"
-
 
 #variables
 
@@ -229,18 +206,11 @@
     "DICT_KEY"    CDF_CHAR     { "SPASE>Particle>ParticleType:Ion,Partic" -
                                  "leQuantity:EnergyPerCharge,Qualifier:U" -
                                  "ncertainty" }
-    "DISPLAY_TYPE"
-                  CDF_CHAR     { "time_series" }
     "FIELDNAM"    CDF_CHAR     { "H Energy Delta Minus" }
     "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
-    "FORMAT"      CDF_CHAR     { "F12.6" }
-    "LABLAXIS"    CDF_CHAR     { "Energy" }
-    "SCALETYP"    CDF_CHAR     { "log" }
     "UNITS"       CDF_CHAR     { "MeV/nuc" }
     "VALIDMAX"    CDF_DOUBLE   { 200.000000 }
     "VALIDMIN"    CDF_DOUBLE   { 0.000000 }
-    "VAR_TYPE"    CDF_CHAR     { "support_data" }
-    "DEPEND_1"    CDF_CHAR     { "energy_h" } 
     "COORDINATE_SYSTEM"
                   CDF_CHAR     { "instrument frame" }
     "SI_CONVERSION"
