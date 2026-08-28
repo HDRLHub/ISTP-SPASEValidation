@@ -149,18 +149,9 @@
                                              "acceleration of particles " -
                                              "in the heliosphere. " } .
 
-  "Start_date"          1:    CDF_CHAR     { " " } .
-
-  "ground_software_version"
-                        1:    CDF_CHAR     { " " } .
-
-  "Generation_date"     1:    CDF_CHAR     { " " } .
-
-  "Generated_by"        1:    CDF_CHAR     { " " } .
-
-  "LINK_TEXT"           1:    CDF_CHAR     { " " }
-                        2:    CDF_CHAR     { " " }
-                        3:    CDF_CHAR     { " " } .
+  "LINK_TEXT"           1:    CDF_CHAR     { "Mission Website" }
+                        2:    CDF_CHAR     { "Reference Publication" }
+                        3:    CDF_CHAR     { "CMAD" } .
 
 
 #VARIABLEattributes
