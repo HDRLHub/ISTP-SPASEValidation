@@ -171,10 +171,12 @@
   "UNITS"
   "VALIDMAX"
   "VALIDMIN"
+  "FRAME"
   "COORDINATE_SYSTEM"
   "SI_CONVERSION"
   "VAR_NOTES"
   "MONOTON"
+  "AVG_TYPE"
 
 #variables
 
@@ -203,7 +205,7 @@
 
     "CATDESC"     CDF_CHAR     { "Lower energy half-width for H" }
     "DICT_KEY"    CDF_CHAR     { "SPASE>Field>Qualifier:Uncertainty," -
-                                 "FieldQuantity:Electromagnetic }
+                                 "FieldQuantity:Electromagnetic" }
     "FIELDNAM"    CDF_CHAR     { "H Energy Delta Minus" }
     "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
     "UNITS"       CDF_CHAR     { "MeV/nuc" }
@@ -361,9 +363,9 @@
     "CATDESC"     CDF_CHAR     { "Extra energy half-width for H" }
     "DICT_KEY"    CDF_CHAR     { "SPASE>Support>SupportQuantity:DataQuality," -
                                  "Qualifier:Uncertainty,Parameter>SpatialCo" -
-				 "verage>CoordinateSystem>CoordinateSystemName:" -
-				 "GSE,Parameter>SpatialCoverage>CoordinateSys" -
-				 "tem>CoordinateRepresentation:Cartesian" }
+				 				 "verage>CoordinateSystem>CoordinateSystemName:" -
+				 				 "GSE,Parameter>SpatialCoverage>CoordinateSys" -
+				 				 "tem>CoordinateRepresentation:Cartesian" }
     "FIELDNAM"    CDF_CHAR     { "H Energy Delta Extra" }
     "FILLVAL"     CDF_DOUBLE   { -1.0e+31 }
     "UNITS"       CDF_CHAR     { "MeV/nuc" }
