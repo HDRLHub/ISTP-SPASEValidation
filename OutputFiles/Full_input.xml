@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <NumericalData>
@@ -93,8 +93,8 @@
         </CoordinateSystem>
       </SpatialCoverage>      
       <Wave>
-        <WaveType>MHD</ParticleType>
-        <WaveQuantity>EquivalentWidth</ParticleQuantity>
+        <WaveType>MHD</WaveType>
+        <WaveQuantity>EquivalentWidth</WaveQuantity>
         <Qualifier>Uncertainty</Qualifier>
       </Wave>
     </Parameter>   
@@ -109,7 +109,7 @@
       <ValidMin>0.000000</ValidMin>
       <Mixed>
         <ParticleType>Ion</ParticleType>
-        <MixedQuantity>PlasmaBeta</ParticleQuantity>
+        <MixedQuantity>PlasmaBeta</MixedQuantity>
         <Qualifier>Uncertainty</Qualifier>
       </Mixed>
     </Parameter>    
@@ -119,7 +119,7 @@
       <Description>Extra energy half-width for H. Coordinate system: instrument frame. Notes: Catch-all bin for counts that do not fall into any CoDICE Hi species classification bin. Monoton: INCREASE. Avg_type: Example avg_type entry. Coordinate_system:inst_xyz</Description>
       <FillValue>-1.0e+31</FillValue>
       <Units>MeV/nuc</Units>
-      <UnitsConversion> > </UnitsConversion>
+      <UnitsConversion> &gt </UnitsConversion>
       <ValidMax>200.000000</ValidMax>
       <ValidMin>0.000000</ValidMin>
       <SpatialCoverage>
