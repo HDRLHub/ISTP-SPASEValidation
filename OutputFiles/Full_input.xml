@@ -67,7 +67,7 @@
       <Description>Upper energy half-width for H. Coordinate system: instrument frame. Notes: Catch-all bin for counts that do not fall into any CoDICE Hi species classification bin. Monoton: INCREASE. Avg_type: Example avg_type entry. Frame:inst_xyz</Description>
       <FillValue>-1.0e+31</FillValue>
       <Units>MeV/nuc</Units>
-      <UnitsConversion> > </UnitsConversion>
+      <UnitsConversion> &gt </UnitsConversion>
       <ValidMax>200.000000</ValidMax>
       <ValidMin>0.000000</ValidMin>
       <Particle>
@@ -83,7 +83,7 @@
       <Description>Base energy half-width for H. Coordinate system: instrument frame. Notes: Catch-all bin for counts that do not fall into any CoDICE Hi species classification bin. Monoton: INCREASE. Avg_type: Example avg_type entry.</Description>
       <FillValue>-1.0e+31</FillValue>
       <Units>MeV/nuc</Units>
-      <UnitsConversion> > </UnitsConversion>
+      <UnitsConversion> &gt </UnitsConversion>
       <ValidMax>200.000000</ValidMax>
       <ValidMin>0.000000</ValidMin>
       <SpatialCoverage>
@@ -104,7 +104,7 @@
       <Description>Top energy half-width for H. Coordinate system: instrument frame. Notes: Catch-all bin for counts that do not fall into any CoDICE Hi species classification bin. Monoton: INCREASE. Avg_type: Example avg_type entry. Coordinate_system:inst_xyz</Description>
       <FillValue>-1.0e+31</FillValue>
       <Units>MeV/nuc</Units>
-      <UnitsConversion> > </UnitsConversion>
+      <UnitsConversion> &gt </UnitsConversion>
       <ValidMax>200.000000</ValidMax>
       <ValidMin>0.000000</ValidMin>
       <Mixed>
