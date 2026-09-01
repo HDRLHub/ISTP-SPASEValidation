@@ -28,6 +28,19 @@
          </InformationURL>
          <Caveats>All IMAP data products are publicly released and citable for use in publications. Please consult the IMAP team publications and personnel for further details on production, processing, and usage of these data. </Caveats>
       </ResourceHeader>
+      <Keyword>IMAP</Keyword>
+      <Keyword>Interstellar Mapping and Acceleration Probe</Keyword>
+      <Keyword>Solar Physics</Keyword>
+      <Keyword>Heliospheric Physics</Keyword>
+      <Keyword>CoDICE</Keyword>
+      <Keyword>Compact Dual Ion Composition Experiment</Keyword>
+      <Keyword>L2_hi-omni</Keyword>
+      <Keyword>Level-2 Hi Omnidirectional Species Intensities Data</Keyword>
+      <ProviderVersion>1.1</ProviderVersion>
+      <ProviderResourceName>Example Title</ProviderResourceName>
+      <TemporalDescription>
+         <Cadence>PT0.625S</Cadence>
+      </TemporalDescription>
       <Parameter>
          <Name>H Energy Delta Minus</Name>
          <ParameterKey>energy_h_minus</ParameterKey>
@@ -42,7 +55,6 @@
          <FillValue>-1e+31</FillValue>
          <ValidMin>0.0</ValidMin>
          <ValidMax>200.0</ValidMax>
-         <RenderingHints/>
       </Parameter>
       <Parameter>
          <Name>H Energy Delta Plus</Name>
@@ -60,7 +72,6 @@
          <FillValue>-1e+31</FillValue>
          <ValidMin>0.0</ValidMin>
          <ValidMax>200.0</ValidMax>
-         <RenderingHints/>
       </Parameter>
       <Parameter>
          <Name>H Energy Delta Base</Name>
@@ -77,7 +88,6 @@
          <FillValue>-1e+31</FillValue>
          <ValidMin>0.0</ValidMin>
          <ValidMax>200.0</ValidMax>
-         <RenderingHints/>
       </Parameter>
       <Parameter>
          <Name>H Energy Delta Top</Name>
@@ -94,7 +104,6 @@
          <FillValue>-1e+31</FillValue>
          <ValidMin>0.0</ValidMin>
          <ValidMax>200.0</ValidMax>
-         <RenderingHints/>
       </Parameter>
       <Parameter>
          <Name>H Energy Delta Extra</Name>
@@ -114,7 +123,6 @@
          <FillValue>-1e+31</FillValue>
          <ValidMin>0.0</ValidMin>
          <ValidMax>200.0</ValidMax>
-         <RenderingHints/>
       </Parameter>
    </NumericalData>
 </Spase>
