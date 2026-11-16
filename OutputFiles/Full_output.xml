@@ -92,7 +92,6 @@ MONOTON: INCREASE</Description>
          <ParameterKey>energy_h_minus2</ParameterKey>
          <Description>Lower energy half-width for H
 Catch-all bin for counts that do not fall into any CoDICE Hi species classification bin.
-FRAME: xyz
 AVG_TYPE: Example avg_type entry
 MONOTON: INCREASE</Description>
          <CoordinateSystem>
