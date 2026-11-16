@@ -81,7 +81,7 @@ MONOTON: INCREASE</Description>
 	 <UnitsConversion> > </UnitsConversion>
          <FillValue>-1e+31</FillValue>
          <ValidMin>0.000000000</ValidMin>
-	 <ValidMax>200</ValidMax>
+	 	 <ValidMax>200</ValidMax>
          <RenderingHints>
             <DisplayType>Time Series</DisplayType>
             <ScaleType>LinearScale</ScaleType>
@@ -105,9 +105,9 @@ MONOTON: INCREASE</Description>
             <AtomicNumber>5</AtomicNumber>
          </Particle>
          <Units>MeV/nuc</Units>
-	 <UnitsConversion> > </UnitsConversion>
+	 	 <UnitsConversion> > </UnitsConversion>
          <FillValue>-1e+31</FillValue>
-	 <ValidMin>0.000000000</ValidMin>
+	 	 <ValidMin>0.000000000</ValidMin>
          <ValidMax>200</ValidMax>
          <RenderingHints>
             <DisplayType>Time Series</DisplayType>
@@ -132,9 +132,9 @@ MONOTON: INCREASE</Description>
             <Qualifier>Average</Qualifier>
          </Wave>
          <Units>MeV/nuc</Units>
-	 <UnitsConversion> > </UnitsConversion>
+	 	 <UnitsConversion> > </UnitsConversion>
          <FillValue>-1e+31</FillValue>
-	 <ValidMin>0.000000000</ValidMin>
+	 	 <ValidMin>0.000000000</ValidMin>
          <ValidMax>200</ValidMax>
          <RenderingHints>
             <DisplayType>Time Series</DisplayType>
@@ -158,9 +158,9 @@ MONOTON: INCREASE</Description>
             <Qualifier>Average</Qualifier>
          </Mixed>
          <Units>MeV/nuc</Units>
-	 <UnitsConversion> > </UnitsConversion>
+	 	 <UnitsConversion> > </UnitsConversion>
          <FillValue>-1e+31</FillValue>
-	 <ValidMin>0.000000000</ValidMin>
+	 	 <ValidMin>0.000000000</ValidMin>
          <ValidMax>200</ValidMax>
          <RenderingHints>
             <DisplayType>Time Series</DisplayType>
@@ -181,9 +181,9 @@ MONOTON: INCREASE</Description>
             <Qualifier>Vector</Qualifier>
          </Support>
          <Units>MeV/nuc</Units>
-	 <UnitsConversion> > </UnitsConversion>
+	 	 <UnitsConversion> > </UnitsConversion>
          <FillValue>-1e+31</FillValue>
-	 <ValidMin>0.000000000</ValidMin>
+	 	 <ValidMin>0.000000000</ValidMin>
          <ValidMax>200</ValidMax>
          <RenderingHints>
             <DisplayType>Time Series</DisplayType>
@@ -203,9 +203,9 @@ MONOTON: INCREASE</Description>
             <UndefinedQuantity>NotProvided</UndefinedQuantity>
          </Undefined>
          <Units>MeV/nuc</Units>
-	 <UnitsConversion> > </UnitsConversion>
+	 	 <UnitsConversion> > </UnitsConversion>
          <FillValue>-1e+31</FillValue>
-	 <ValidMin>0.000000000</ValidMin>
+	 	 <ValidMin>0.000000000</ValidMin>
          <ValidMax>200</ValidMax>
          <RenderingHints>
             <DisplayType>Time Series</DisplayType>
