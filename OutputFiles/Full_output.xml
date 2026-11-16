@@ -12,7 +12,7 @@
          <Acknowledgement>Users should acknowledge the sources of data used in all publications, presentations, and reports using an appropriate DOI. Appropriate acknowledgement to institutions, personnel, and funding agencies should be given, including acknowledging the IMAP Mission Principal Investigator, Prof. David J. McComas of Princeton University (Contract #80GSFC19C0027). IMAP Rules-of-the-Road for data usage can be found in the IMAP CMAD.</Acknowledgement>
          <ReleaseDate>yyyy-mm-ddT00:00:00Z</ReleaseDate>
          <Contact>
-	    <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+	    	<PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
             <Role>PrincipalInvestigator</Role>
          </Contact>
          <InformationURL>
