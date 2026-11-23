@@ -274,7 +274,7 @@
     "COORDINATE_SYSTEM"
                   CDF_CHAR     { "instrument frame" }
     "REPRESENTATION_1"
-                  CDF_CHAR     { '["r","p","t"]' } .
+                  CDF_CHAR     { "pointer_variable_name" } .
 
   ! NRV values follow...
 
@@ -321,7 +321,7 @@
     "COORDINATE_SYSTEM"
                   CDF_CHAR     { "instrument frame" }
     "REPRESENTATION_1"
-                  CDF_CHAR     { '["r","p","t"]' } .
+                  CDF_CHAR     { "pointer_variable_name" } .
 
   ! NRV values follow...
 
@@ -367,7 +367,7 @@
     "COORDINATE_SYSTEM"
                   CDF_CHAR     { "instrument frame" }
     "REPRESENTATION_1"
-                  CDF_CHAR     { '["r","p","t"]' } .
+                  CDF_CHAR     { "pointer_variable_name" } .
 
   ! NRV values follow...
 
@@ -413,7 +413,7 @@
     "COORDINATE_SYSTEM"
                   CDF_CHAR     { "instrument frame" }
     "REPRESENTATION_1"
-                  CDF_CHAR     { '["r","p","t"]' } .
+                  CDF_CHAR     { "pointer_variable_name" } .
 
   ! NRV values follow...
 
@@ -458,7 +458,7 @@
     "COORDINATE_SYSTEM"
                   CDF_CHAR     { "fake frame" }
     "REPRESENTATION_1"
-                  CDF_CHAR     { '["r","p","t"]' } .
+                  CDF_CHAR     { "pointer_variable_name" } .
 
   ! NRV values follow...
 
@@ -502,10 +502,42 @@
     "COORDINATE_SYSTEM"
                   CDF_CHAR     { "instrument frame" }
     "REPRESENTATION_1"
-                  CDF_CHAR     { '["a","b","c"]' } .
+                  CDF_CHAR     { "pointer_variable_name" } .
 
   ! NRV values follow...
 
     [1] = -1.0e+31
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "pointer_variable_name"
+                  CDF_CHAR       4       1     4        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_BLOCKINGFACTOR: 1
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Representation of quaternions: r, p, t" -
+                                 " define vector components. w defines " -
+                                 "the scalar component." }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "FORMAT"      CDF_CHAR     { "A4" } .
+
+  ! NRV values follow...
+
+    [1] = { "qr  " }
+    [2] = { "qp  " }
+    [3] = { "qt  " }
+    [4] = { "qw  " }
 
 #end
