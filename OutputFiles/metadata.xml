@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase
+   xmlns="http://www.spase-group.org/data/schema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <NumericalData>
+      <ResourceHeader>
+         <ResourceName>IMAP Mission CoDICE Hi Level-2 Omnidirectional Species Intensity Data.</ResourceName>
+         <AlternateName>imap_codice_l2_hi-omni</AlternateName>
+         <DOI>https://doi.org/10.48322/6cfb-rq65</DOI>
+         <Description>The Compact Dual Ion Composition Experiment (CoDICE) will measure the distributions and composition of interstellar pickup ions (PUIs), particles that make it through the heliosheath into the heliosphere. CoDICE also collects and characterizes solar wind ions including the mass and composition of highly energized particles (called suprathermal) from the Sun. CoDICE combines an electrostatic analyzer (ESA) with a Time-Of-Flight versus Energy (TOF / E) subsystem to simultaneously measure the velocity, arrival direction, ionic charge state, and mass of specific species of ions in the LISM. CoDICE also has a path for higher energy particles to skip the ESA but still get measured by the common TOF / E system. These measurements are critical in determining the Local Interstellar Medium (LISM) composition and flow properties, the origin of the enigmatic suprathermal tails on the solar wind distributions and advance understanding of the acceleration of particles in the heliosphere.</Description>
+         <Acknowledgement>Users should acknowledge the sources of data used in all publications, presentations, and reports using an appropriate DOI. Appropriate acknowledgement to institutions, personnel, and funding agencies should be given, including acknowledging the IMAP Mission Principal Investigator, Prof. David J. McComas of Princeton University (Contract #80GSFC19C0027). IMAP Rules-of-the-Road for data usage can be found in the IMAP CMAD.</Acknowledgement>
+         <ReleaseDate>yyyy-mm-ddT00:00:00Z</ReleaseDate>
+         <Contact>
+	    <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+	    <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>IMAP The Interstellar Mapping and Acceleration Probe</Name>
+            <URL>https://imap.princeton.edu/</URL>
+            <Description>Mission Website</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>IMAP Mission and Science Instruments Special Paper Collection</Name>
+            <URL>https://link.springer.com/collections/djacjcecei</URL>
+            <Description>Reference Publication</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>IMAP Calibration and Measurement Algorithms Document (CMAD)</Name>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/imap/documents/cmad/</URL>
+            <Description>CMAD</Description>
+         </InformationURL>
+         <Caveats>All IMAP data products are publicly released and citable for use in publications. Please consult the IMAP team publications and personnel for further details on production, processing, and usage of these data.</Caveats>
+      </ResourceHeader>
+      <Keyword>IMAP</Keyword>
+      <Keyword>Interstellar Mapping and Acceleration Probe</Keyword>
+      <Keyword>Solar Physics</Keyword>
+      <Keyword>Heliospheric Physics</Keyword>
+      <Keyword>CoDICE</Keyword>
+      <Keyword>Compact Dual Ion Composition Experiment</Keyword>
+      <Keyword>L2_hi-omni</Keyword>
+      <Keyword>Level-2 Hi Omnidirectional Species Intensities Data</Keyword>
+      <ProviderVersion>1.1</ProviderVersion>
+      <ProviderResourceName>Example Title</ProviderResourceName>
+      <TemporalDescription>
+         <Cadence>PT0.625S</Cadence>
+      </TemporalDescription>
+      <MeasurementType>EnergeticParticles</MeasurementType>
+      <ObservedRegion>Heliosphere</ObservedRegion>
+      <Parameter>
+         <Name>Epoch</Name>
+         <ParameterKey>Epoch</ParameterKey>
+         <Description>Nanoseconds from J2000 with leap seconds included.
+MONOTON: INCREASE</Description>
+         <Units>ns</Units>
+         <FillValue>9999-12-31T23:59:59.999999999</FillValue>
+         <ValidMin>1990-01-01T00:00:00.000000000</ValidMin>
+         <ValidMax>2099-12-31T23:59:59.000000000</ValidMax>
+      </Parameter>
+      <Parameter>
+         <Name>H Energy Delta Minus</Name>
+         <ParameterKey>energy_h_minus1</ParameterKey>
+         <Description>Lower energy half-width for H
+Catch-all bin for counts that do not fall into any CoDICE Hi species classification bin.
+AVG_TYPE: Example avg_type entry
+MONOTON: INCREASE</Description>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSM</CoordinateSystemName>
+         </CoordinateSystem>
+         <Field>
+            <FieldQuantity>Magnetic</FieldQuantity>
+            <Qualifier>Vector</Qualifier>
+         </Field>
+         <Units>MeV/nuc</Units>
+         <UnitsConversion> > </UnitsConversion>
+         <FillValue>-1e+31</FillValue>
+         <ValidMax>200</ValidMax>
+      </Parameter>
+      <Parameter>
+         <Name>H Energy Delta Minus</Name>
+         <ParameterKey>energy_h_minus2</ParameterKey>
+         <Description>Lower energy half-width for H
+Catch-all bin for counts that do not fall into any CoDICE Hi species classification bin.
+FRAME: xyz
+AVG_TYPE: Example avg_type entry
+MONOTON: INCREASE</Description>
+         <CoordinateSystem>
+            <CoordinateSystemName>WGS84</CoordinateSystemName>
+         </CoordinateSystem>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <ParticleQuantity>NumberDensity</ParticleQuantity>
+            <Qualifier>Moment</Qualifier>
+            <AtomicNumber>5</AtomicNumber>
+         </Particle>
+         <Units>MeV/nuc</Units>
+         <UnitsConversion> > </UnitsConversion>
+         <FillValue>-1e+31</FillValue>
+         <ValidMax>200</ValidMax>
+      </Parameter>
+      <Parameter>
+         <Name>H Energy Delta Minus</Name>
+         <ParameterKey>energy_h_minus3</ParameterKey>
+         <Description>Lower energy half-width for H
+Catch-all bin for counts that do not fall into any CoDICE Hi species classification bin.
+FRAME: wgs60
+FRAME: xyz
+AVG_TYPE: Example avg_type entry
+MONOTON: INCREASE</Description>
+         <Wave>
+            <WaveType>Electrostatic</WaveType>
+            <WaveQuantity>Intensity</WaveQuantity>
+            <Qualifier>Average</Qualifier>
+         </Wave>
+         <Units>MeV/nuc</Units>
+         <UnitsConversion> > </UnitsConversion>
+         <FillValue>-1e+31</FillValue>
+         <ValidMax>200</ValidMax>
+      </Parameter>
+      <Parameter>
+         <Name>H Energy Delta Minus</Name>
+         <ParameterKey>energy_h_minus4</ParameterKey>
+         <Description>Lower energy half-width for H
+Catch-all bin for counts that do not fall into any CoDICE Hi species classification bin.
+COORDINATE_SYSTEM: instrument frame
+REPRESENTATION_1: pointer_variable_name
+AVG_TYPE: Example avg_type entry
+MONOTON: INCREASE</Description>
+         <Mixed>
+            <MixedQuantity>AlfvenMachNumber</MixedQuantity>
+            <ParticleType>Dust</ParticleType>
+            <Qualifier>Average</Qualifier>
+         </Mixed>
+         <Units>MeV/nuc</Units>
+         <UnitsConversion> > </UnitsConversion>
+         <FillValue>-1e+31</FillValue>
+         <ValidMax>200</ValidMax>
+      </Parameter>
+      <Parameter>
+         <Name>H Energy Delta Minus</Name>
+         <ParameterKey>energy_h_minus5</ParameterKey>
+         <Description>Lower energy half-width for H
+Catch-all bin for counts that do notfall into any CoDICE Hi species classification bin.
+COORDINATE_SYSTEM: fake frame
+REPRESENTATION_1: pointer_variable_name
+AVG_TYPE: Example avg_type entry
+MONOTON: INCREASE</Description>
+         <Support>
+            <SupportQuantity>Positional</SupportQuantity>
+            <Qualifier>Vector</Qualifier>
+         </Support>
+         <Units>MeV/nuc</Units>
+         <UnitsConversion> > </UnitsConversion>
+         <FillValue>-1e+31</FillValue>
+         <ValidMax>200</ValidMax>
+      </Parameter>
+      <Parameter>
+         <Name>H Energy Delta Minus</Name>
+         <ParameterKey>energy_h_minus6</ParameterKey>
+         <Description>Lower energy half-width for H
+Catch-all bin for counts that do not fall into any CoDICE Hi species classification bin.
+COORDINATE_SYSTEM: instrument frame
+REPRESENTATION_1: pointer_variable_name
+AVG_TYPE: Example avg_type entry
+MONOTON: INCREASE</Description>
+         <Undefined>
+            <UndefinedQuantity>NotProvided</UndefinedQuantity>
+         </Undefined>
+         <Units>MeV/nuc</Units>
+         <UnitsConversion> > </UnitsConversion>
+         <FillValue>-1e+31</FillValue>
+         <ValidMax>200</ValidMax>
+      </Parameter>
+      <Parameter>
+         <ParameterKey>pointer_variable_name</ParameterKey>
+         <Description>Representation of quaternions: r, p, t define vector components. w defines the scalar component. ["qr  ","qp  ","qt  ","qw  "]</Description>
+      </Parameter>
+   </NumericalData>
+</Spase>
